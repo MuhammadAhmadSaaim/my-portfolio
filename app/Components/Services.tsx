@@ -15,7 +15,7 @@ const Services = () => {
                             Frontend
                         </h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo soluta magnam a accusantium tenetur sunt? Architecto sit libero voluptas inventore esse non velit dolore perspiciatis aliquid. Pariatur deserunt sit eligendi.
+                            Your digital presence begins with an engaging and user-friendly frontend. From responsive web designs to intuitive mobile app interfaces, I bring your vision to life with precision, creativity and detail.
                         </p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Services = () => {
                             Backend
                         </h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo soluta magnam a accusantium tenetur sunt? Architecto sit libero voluptas inventore esse non velit dolore perspiciatis aliquid. Pariatur deserunt sit eligendi.
+                            Behind every great frontend lies a powerful backend infrastructure. With expertise in server-side programming languages, databases, and cloud technologies, I develop scalable and secure backend systems.
                         </p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const Services = () => {
                             Fullstack
                         </h1>
                         <p className="text-[15px] text-[#d3d2d2] font-normal">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo soluta magnam a accusantium tenetur sunt? Architecto sit libero voluptas inventore esse non velit dolore perspiciatis aliquid. Pariatur deserunt sit eligendi.
+                            For comprehensive digital solutions, I offer full-stack development services. Whether launching a web application, a mobile app, or a cross-platform solution, my expertise ensures a stellar end product.
                         </p>
                     </div>
                 </div>
