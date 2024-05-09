@@ -1,5 +1,5 @@
 import { StarIcon } from "@heroicons/react/16/solid";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from 'react'
 
 interface Props {
@@ -25,9 +25,7 @@ const ClientReview = ({ name, image, role, body, rating }: Props) => {
     };
     return (
         <div className="flex flex-col text-center justify-center">
-            <div className="mx-auto mb-[2rem] rounded-full">
-                <Image src={image} alt={name} width={100} height={100} objectFit="contain" />
-            </div>
+            <Image src={image} alt={name} width={100} height={100} objectFit="contain" className="mx-auto mb-[2rem] rounded-full" />
             <div className="flex items-center mx-auto">
                 {renderStars(rating)}
             </div>
@@ -38,4 +36,4 @@ const ClientReview = ({ name, image, role, body, rating }: Props) => {
     )
 }
 
-export default ClientReview;
+export default ClientReview
