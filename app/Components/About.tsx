@@ -27,7 +27,7 @@ const About = () => {
                     <div className="mb-[3rem] flex items-center md:space-x-10">
                         <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
                         <p className="text-[19px] text-slate-300 w-[80%]">
-                            Hello there! I'm a Computer Science student at FAST NUCES, where I'm immersed in the dynamic world of technology.  I'm committed to staying at the forefront of technology, constantly exploring the latest advancements to fuel my passion for innovation. Dedication to delivering high-quality work is non-negotiable for me and I strive to leave a lasting impression with every project I undertake.
+                            Hello there! I&apos;m a Computer Science student at FAST NUCES, where I&apos;m immersed in the dynamic world of technology.  I&apos;m committed to staying at the forefront of technology, constantly exploring the latest advancements to fuel my passion for innovation. Dedication to delivering high-quality work is non-negotiable for me and I strive to leave a lasting impression with every project I undertake.
                         </p>
                     </div>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default About
+export default About;
