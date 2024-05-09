@@ -12,10 +12,7 @@ const Footer = () => {
     };
 
     const openMap = () => {
-        const latitude = 31.4319701;
-        const longitude = 74.2411484;
-        const zoomLevel = 25;
-        window.open(`https://www.google.com/maps?q=${latitude},${longitude}&z=${zoomLevel}`, '_blank');
+        window.open(`https://www.google.com/maps/@31.4474166,74.3105383,13z?entry=ttu`, '_blank');
     };
 
     return (
