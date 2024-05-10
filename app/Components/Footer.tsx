@@ -1,7 +1,16 @@
 import { DevicePhoneMobileIcon, EnvelopeIcon, MapIcon } from "@heroicons/react/16/solid"
 import React from 'react'
+import { AiFillFacebook, AiFillInstagram, AiFillX } from "react-icons/ai";
 
 const Footer = () => {
+
+    const openInstagram = () => {
+        window.open("https://www.instagram.com/muhammadahmadsaaim/");
+    };
+
+    const openFacebook = () => {
+        window.open("https://www.facebook.com/muhammadahmad.saaim");
+    };
 
     const openEmail = () => {
         window.location.href = "mailto:muhammadahmadsaaim@gmail.com";
@@ -53,7 +62,10 @@ const Footer = () => {
                 <div className="flex items-center space-x-10">
                     <p className="text-[16px] text-white opacity-20">Terms & Conditions</p>
                     <p className="text-[16px] text-white opacity-20">Privacy Policy</p>
-                    <p className="text-[16px] text-white opacity-20">Sitemap</p>
+                    <div className="flex items-center space-x-4">
+                        <AiFillInstagram onClick={openInstagram} style={{ cursor: 'pointer' }} className="text-white" />
+                        <AiFillFacebook onClick={openFacebook} style={{ cursor: 'pointer' }} className="text-white" />
+                    </div>
                 </div>
             </div>
         </div>
