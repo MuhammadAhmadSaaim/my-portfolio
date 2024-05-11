@@ -23,7 +23,7 @@ const Projects = () => {
                         <Image src="/images/p3.jpg" alt="portfolio" layout="fill" className="object-contain" />
                     </div>
                 </div>
-                {/*<div data-aos="fade-up" data-aos-delay="1000">
+                <div data-aos="fade-up" data-aos-delay="1000">
                     <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                         <Image src="/images/p4.jpg" alt="portfolio" layout="fill" className="object-contain" />
                     </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                     <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                         <Image src="/images/p5.jpg" alt="portfolio" layout="fill" className="object-contain" />
                     </div>
-                </div>*/}
+                </div>
             </div>
         </div>
     )
