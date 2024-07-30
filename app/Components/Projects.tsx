@@ -39,7 +39,7 @@ const Projects = () => {
                 </div>
                 <div data-aos="fade-up" data-aos-delay="750" onClick={() => goToProjectLink('https://www.linkedin.com/feed/update/urn:li:activity:7223936955867103233/')}>
                     <div className="transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-                        <Image src="/images/p5.png" alt="portfolio" layout="fill" className="object-contain" />
+                        <Image src="/images/p6.png" alt="portfolio" layout="fill" className="object-contain" />
                     </div>
                 </div>
             </div>
