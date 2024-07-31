@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/legacy/image";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-const LinkedInURL = "https://www.linkedin.com/in/muhammad-ahmad-saaim-498445182/";
+const LinkedInURL = "www.linkedin.com/in/muhammadahmadsaaim";
 const GithubURL = "https://github.com/MuhammadAhmadSaaim/";
 
 const About = () => {
