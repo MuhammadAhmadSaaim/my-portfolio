@@ -4,7 +4,7 @@ import SkillsLanguage from "./SkillsLanguage"
 
 const Skills = () => {
     return (
-        <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]">
+        <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#121212]">
             <h1 className="heading">Experience & <span className="text-purple-900">Skills</span></h1>
             <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-l md:grid-cols-2 gap-[2rem] items-center">
                 <div>

@@ -47,7 +47,7 @@ const ServicesPage = () => {
         <div className="overflow-x-hidden">
             <MobileNav nav={nav} closeNav={closeNav} />
             <Nav openNav={openNav} />
-            <div className="mt-[10vh] relative z-[30] flex bg-[#09101a] justify-center">
+            <div className="mt-[10vh] relative z-[30] flex bg-[#121212] justify-center">
                 <div className="w-full max-w-5xl p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt">
                     {services.map((service, index) => (
                         <div key={index} className={`${service.color} p-6 rounded-lg shadow-lg transform transition-transform hover:-translate-y-2`}>
